@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/images/bramhiHi.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,14 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true, "bundleIdentifier":"IOSName" 
+      "supportsTablet": true,
+      "bundleIdentifier": "IOSName"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "android"
+      "package": "com.naveen_miriyala.AwesomeProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
